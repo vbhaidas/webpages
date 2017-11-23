@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="popper/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<title>Company Inc.</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<h3 style="padding-left: 5px; padding-top: 10px; padding-bottom: 10px; background-color: #006666">Manuacturing Company</h3>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card" style="padding: 0px">
+					<div class="card-header" style="background-color: #737373; padding: 6px; font-weight: bold;">
+						STA01 TAKT: 10min
+					</div>
+					<div class="card-block">
+						<table class="table table-bordered table-hover" style="margin-bottom: 0px">
+							<tbody>
+							<tr>
+								<td style="padding: 3px; font-weight: bold;">Operator </td>
+								<td style="padding: 3px">VDB </td>
+							</tr>
+							<tr>
+								<td style="padding: 3px; font-weight: bold;">VIN</td>
+								<td style="padding: 3px">20171118FX205</td>
+							</tr>
+							<tr>
+								<td style="padding: 3px; font-weight: bold;">Scan In</td>
+								<td style="padding: 3px">2017/11/19 05:03:30 PM</td>
+							</tr>
+							<tr>
+								<td style="padding: 3px; font-weight: bold;">Time Elapsed</td>
+								<td style="padding: 3px">00:02:30</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4" style="padding: 57px 15px; ">
+				<button type="button" class="btn btn-success btn-lg" style="margin-left: 15px; margin-right: 15px;">Scan OUT</button>
+				<button type="button" class="btn btn-warning btn-lg" style="margin-left: 15px; margin-right: 15px;">Send to Rework</button>
+			</div>
+		</div>
+		<hr>
+
+		<div class="col-md-6" style="border-style: solid; border-width: 1px; padding: 15px 15px">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+  				<li class="nav-item">
+    				<a class="nav-link active" id="sta1-tab" data-toggle="tab" href="#home" role="tab" aria-controls="sta1" aria-selected="true">STA01</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" id="sta2-tab" data-toggle="tab" href="#sta2" role="tab" aria-controls="sta2" aria-selected="false">STA02</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" id="sta3-tab" data-toggle="tab" href="#sta3" role="tab" aria-controls="sta3" aria-selected="false">STA03</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" id="sta4-tab" data-toggle="tab" href="#sta4" role="tab" aria-controls="sta4" aria-selected="false">STA04</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" id="sta5-tab" data-toggle="tab" href="#sta5" role="tab" aria-controls="sta5" aria-selected="false">STA05</a>
+  				</li>
+			</ul>
+		<div class="tab-content" id="myTabContent">
+  			<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Station 1 Tab</div>
+  			<div class="tab-pane fade" id="sta2" role="tabpanel" aria-labelledby="sta2-tab">Station 2 Tab</div>
+  			<div class="tab-pane fade" id="sta2" role="tabpanel" aria-labelledby="sta2-tab">Station 2 Tab</div>
+  			<div class="tab-pane fade" id="sta3" role="tabpanel" aria-labelledby="sta3-tab">Station 3 Tab</div>
+  			<div class="tab-pane fade" id="sta4" role="tabpanel" aria-labelledby="sta4-tab">Station 4 Tab</div>
+  			<div class="tab-pane fade" id="sta5" role="tabpanel" aria-labelledby="sta5-tab">Station 5 Tab</div>
+		</div>
+  	</div>
+</body>
+</html>
